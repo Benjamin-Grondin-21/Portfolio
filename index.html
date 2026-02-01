@@ -22,7 +22,6 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
             background: linear-gradient(135deg, var(--secondary) 0%, #e8e8e0 100%);
             color: var(--primary);
-            cursor: none;
             overflow-x: hidden;
             padding-top: 80px;
         }
@@ -111,32 +110,6 @@
             height: 3px;
             background: var(--primary);
             transition: all 0.3s ease;
-        }
-
-        /* Custom Cursor */
-        .cursor {
-            width: 20px;
-            height: 20px;
-            border: 2px solid var(--accent);
-            border-radius: 50%;
-            position: fixed;
-            pointer-events: none;
-            z-index: 9999;
-            transition: transform 0.2s ease, width 0.3s ease, height 0.3s ease;
-            transform: translate(-50%, -50%);
-        }
-
-        .cursor-follower {
-            width: 40px;
-            height: 40px;
-            border: 1px solid var(--primary);
-            border-radius: 50%;
-            position: fixed;
-            pointer-events: none;
-            z-index: 9998;
-            transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-            transform: translate(-50%, -50%);
-            opacity: 0.5;
         }
 
         /* Header */
@@ -712,14 +685,6 @@
             .projects-grid {
                 grid-template-columns: 1fr;
             }
-
-            .cursor, .cursor-follower {
-                display: none;
-            }
-
-            body {
-                cursor: auto;
-            }
         }
 
         /* Scroll Indicator */
@@ -762,9 +727,6 @@
     </style>
 </head>
 <body>
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
-
     <nav>
         <div class="nav-logo">
             GRONDIN B<span class="accent">.</span>
@@ -790,7 +752,7 @@
         </h1>
         <p class="hero-subtitle">
             Portfolio - Alternant Exploitation Réseaux Mobile chez Orange Réunion Mayotte. 
-            Étudiant en BUT Réseaux & Télécommunications (2ème année) à l'IUT de La Réunion, titulaire d'un BTS SIO SISR. 
+            Étudiant en BUT Réseaux & Télécommunications (3ème année) à l'IUT de La Réunion, titulaire d'un BTS SIO SISR. 
             Spécialisé dans les protocoles réseaux, le monitoring d'infrastructures et le développement web.
         </p>
         
@@ -828,10 +790,10 @@
                 <p>
                     Après l'obtention de mon <strong>BTS SIO option SISR</strong> (Solutions d'Infrastructure, Systèmes et Réseaux), 
                     j'ai intégré le <strong>BUT Réseaux & Télécommunications en 2ème année</strong> à l'IUT de La Réunion. 
-                    Cette formation me permet d'approfondir mes compétences techniques en réseaux et télécommunications.
+                    Actuellement en <strong>3ème année</strong>, cette formation me permet d'approfondir mes compétences techniques en réseaux et télécommunications.
                 </p>
                 <p>
-                    Actuellement en alternance chez <strong>Orange Réunion Mayotte</strong> en tant qu'exploitant réseaux mobile, 
+                    En alternance chez <strong>Orange Réunion Mayotte</strong> en tant qu'exploitant réseaux mobile, 
                     je combine théorie académique et pratique professionnelle. Cette expérience me permet de développer 
                     une compréhension approfondie des infrastructures télécoms 4G/5G tout en appliquant mes compétences 
                     sur des projets variés : analyse de protocoles réseaux, monitoring d'infrastructures critiques et développement web.
@@ -877,7 +839,7 @@
                 <p class="project-desc">Étude approfondie des protocoles réseau (TCP/IP, UDP, HTTP, DNS) avec analyse de trames et capture de paquets. Mise en pratique de Wireshark pour l'analyse du trafic réseau et compréhension des mécanismes de communication.</p>
                 <div class="project-links">
                     <a href="documents/rapports/analyse-protocoles.pdf" target="_blank" class="project-link primary">Voir le rapport PDF</a>
-                    <a href="https://github.com/votre-username/portfolio" target="_blank" class="project-link">Code source</a>
+                    <a href="https://github.com/Benjamin-Grondin-21/Portfolio" target="_blank" class="project-link">Code source</a>
                 </div>
                 <div class="project-tags">
                     <span class="tag">TCP/IP</span>
@@ -892,7 +854,7 @@
                 <p class="project-desc">Système de surveillance d'infrastructure avec Grafana, Prometheus et intégration Discord pour le monitoring des installations TAAF. Mise en place de dashboards et alertes automatiques pour garantir la disponibilité des services.</p>
                 <div class="project-links">
                     <a href="documents/rapports/monitoring-conteneurs.pdf" target="_blank" class="project-link primary">Voir le rapport PDF</a>
-                    <a href="https://github.com/votre-username/monitoring-taaf" target="_blank" class="project-link">Documentation</a>
+                    <a href="https://github.com/Benjamin-Grondin-21" target="_blank" class="project-link">Documentation</a>
                 </div>
                 <div class="project-tags">
                     <span class="tag">Grafana</span>
@@ -906,8 +868,8 @@
                 <h3 class="project-title">Portfolio Web</h3>
                 <p class="project-desc">Site portfolio moderne avec design brutalist-minimal, animations 3D et effets de curseur personnalisés. Développé en HTML/CSS/JavaScript pur avec une attention particulière portée à l'expérience utilisateur et au responsive design.</p>
                 <div class="project-links">
-                    <a href="https://votre-username.github.io/portfolio/" target="_blank" class="project-link primary">Voir le site</a>
-                    <a href="https://github.com/votre-username/portfolio" target="_blank" class="project-link">Code GitHub</a>
+                    <a href="https://benjamin-grondin-21.github.io/Portfolio/" target="_blank" class="project-link primary">Voir le site</a>
+                    <a href="https://github.com/Benjamin-Grondin-21/Portfolio" target="_blank" class="project-link">Code GitHub</a>
                 </div>
                 <div class="project-tags">
                     <span class="tag">HTML/CSS</span>
@@ -975,11 +937,11 @@
                 <strong>GRONDIN Benjamin</strong><br>
                 Alternant Exploitation Réseaux Mobile<br>
                 <strong>Orange Réunion Mayotte</strong><br><br>
-                Étudiant BUT Réseaux & Télécommunications (2ème année)<br>
+                Étudiant BUT Réseaux & Télécommunications (3ème année)<br>
                 <strong>IUT de La Réunion</strong> • Titulaire BTS SIO SISR<br>
                 Passionné par le développement et les protocoles réseaux<br><br>
-                <a href="mailto:benjamin.grondin@exemple.fr">benjamin.grondin@exemple.fr</a><br>
-                <a href="https://github.com/votre-username" target="_blank">GitHub</a> • 
+                <a href="/cdn-cgi/l/email-protection#5e3c3b30343f33373070392c31303a37301e3b263b332e323b70382c"><span class="__cf_email__" data-cfemail="96f4f3f8fcf7fbfff8b8f1e4f9f8f2fff8d6f3eef3fbe6faf3b8f0e4">[email&#160;protected]</span></a><br>
+                <a href="https://github.com/Benjamin-Grondin-21" target="_blank">GitHub</a> • 
                 <a href="https://linkedin.com/in/votre-profil" target="_blank">LinkedIn</a>
             </p>
         </div>
@@ -989,7 +951,7 @@
         <p>&copy; 2026 GRONDIN Benjamin - Tous droits réservés</p>
     </footer>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // Navigation scroll effect
         const nav = document.querySelector('nav');
         window.addEventListener('scroll', () => {
@@ -1015,33 +977,6 @@
             });
         });
 
-        // Custom Cursor
-        const cursor = document.querySelector('.cursor');
-        const cursorFollower = document.querySelector('.cursor-follower');
-
-        document.addEventListener('mousemove', (e) => {
-            cursor.style.left = e.clientX + 'px';
-            cursor.style.top = e.clientY + 'px';
-            
-            setTimeout(() => {
-                cursorFollower.style.left = e.clientX + 'px';
-                cursorFollower.style.top = e.clientY + 'px';
-            }, 100);
-        });
-
-        // Cursor expand on hover
-        const hoverElements = document.querySelectorAll('a, button, .project-card');
-        hoverElements.forEach(el => {
-            el.addEventListener('mouseenter', () => {
-                cursor.style.width = '60px';
-                cursor.style.height = '60px';
-            });
-            el.addEventListener('mouseleave', () => {
-                cursor.style.width = '20px';
-                cursor.style.height = '20px';
-            });
-        });
-
         // Smooth scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -1059,9 +994,3 @@
         // Parallax effect on scroll (only in header section)
         window.addEventListener('scroll', () => {
             const scrolled = window.pageYOffset;
-            const header = document.querySelector('header');
-            if (header) {
-                const headerHeight = header.offsetHeight;
-                // Only apply parallax when scrolled less than header height
-                if (scrolled < headerHeight) {
-  

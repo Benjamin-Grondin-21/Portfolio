@@ -1,0 +1,24 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*~
+
+# Dossiers IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Node modules (si vous ajoutez du JavaScript plus tard)
+node_modules/
+
+# Fichiers de log
+*.log
+
+# Fichiers sensibles (à ne jamais commiter)
+.env
+*.key
+*.pem

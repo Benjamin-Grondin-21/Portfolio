@@ -440,7 +440,7 @@
         /* Skills */
         .skills-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
             margin-top: 4rem;
         }
@@ -459,6 +459,10 @@
         .skill-item:nth-child(2) { animation-delay: 0.2s; }
         .skill-item:nth-child(3) { animation-delay: 0.3s; }
         .skill-item:nth-child(4) { animation-delay: 0.4s; }
+        .skill-item:nth-child(5) { animation-delay: 0.5s; }
+        .skill-item:nth-child(6) { animation-delay: 0.6s; }
+        .skill-item:nth-child(7) { animation-delay: 0.7s; }
+        .skill-item:nth-child(8) { animation-delay: 0.8s; }
 
         .skill-item:hover {
             background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
@@ -476,6 +480,11 @@
         .skill-level {
             font-size: 0.9rem;
             opacity: 0.7;
+            line-height: 1.6;
+        }
+
+        .skill-item:hover .skill-level {
+            opacity: 1;
         }
 
         /* Contact */
@@ -803,14 +812,15 @@
             <div class="about-card">
                 <h3>Compétences Acquises</h3>
                 <p>
-                    Au fil de mes projets et de mon alternance, j'ai développé des compétences solides dans plusieurs domaines :
+                    Au fil de mes projets académiques, stages et de mon alternance, j'ai développé des compétences solides :
                 </p>
                 <ul>
-                    <li>Analyse de protocoles réseau (TCP/IP, UDP, HTTP, DNS) avec Wireshark</li>
-                    <li>Monitoring d'infrastructures avec Grafana, Prometheus et PostgreSQL</li>
-                    <li>Développement web moderne (HTML/CSS/JavaScript, design responsive)</li>
-                    <li>Analyse de données avec SQL et PromQL</li>
-                    <li>Gestion de projets techniques et documentation professionnelle</li>
+                    <li><strong>Infrastructures Réseaux :</strong> Configuration Cisco, Fortigate, mise en production WAN, téléphonie IP</li>
+                    <li><strong>Administration Systèmes :</strong> Windows Server, Active Directory, Linux (Ubuntu, Debian)</li>
+                    <li><strong>Monitoring & Supervision :</strong> Grafana, Prometheus, Loki, analyse de logs et performances</li>
+                    <li><strong>Développement :</strong> Python, Java, PHP, HTML/CSS/JavaScript, bases de données (MySQL, PostgreSQL)</li>
+                    <li><strong>Support & Maintenance :</strong> Diagnostic, dépannage, assistance utilisateurs N1/N2</li>
+                    <li><strong>Protocoles :</strong> TCP/IP, UDP, HTTP, DNS, analyse avec Wireshark</li>
                 </ul>
             </div>
 
@@ -912,20 +922,36 @@
         <h2 class="section-title">COMPÉTENCES</h2>
         <div class="skills-container">
             <div class="skill-item">
-                <div class="skill-name">Développement Web</div>
-                <div class="skill-level">HTML • CSS • JavaScript</div>
+                <div class="skill-name">Langages de Programmation</div>
+                <div class="skill-level">Python • Java • PHP • HTML • CSS • JavaScript • Bash • TCL Cisco</div>
             </div>
             <div class="skill-item">
-                <div class="skill-name">Protocoles Réseaux</div>
-                <div class="skill-level">TCP/IP • UDP • HTTP • DNS • Wireshark</div>
+                <div class="skill-name">Systèmes d'Exploitation</div>
+                <div class="skill-level">Ubuntu • Debian • Windows Server (2012-2022) • Windows • Linux Mint • Mageia</div>
             </div>
             <div class="skill-item">
-                <div class="skill-name">Monitoring</div>
-                <div class="skill-level">Grafana • Prometheus • Loki</div>
+                <div class="skill-name">Protocoles & Réseaux</div>
+                <div class="skill-level">TCP/IP • UDP • HTTP • DNS • Wireshark • Routage • Configuration WAN</div>
             </div>
             <div class="skill-item">
-                <div class="skill-name">Bases de données</div>
-                <div class="skill-level">PostgreSQL • SQL • PromQL</div>
+                <div class="skill-name">Équipements Réseaux</div>
+                <div class="skill-level">Routeur Cisco • Switch Cisco • Pare-feu Fortigate • Téléphonie IP</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">Monitoring & Administration</div>
+                <div class="skill-level">Grafana • Prometheus • Loki • PromQL • PostgreSQL • MySQL</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">Virtualisation & Outils</div>
+                <div class="skill-level">VirtualBox • Packet Tracer • Windows Server • Active Directory</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">Support & Infrastructure</div>
+                <div class="skill-level">Dépannage • Diagnostic • Assistance utilisateurs (N1/N2) • Brassage réseau</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">Électronique & Systèmes</div>
+                <div class="skill-level">Arduino • Installation électrique • Systèmes communicants</div>
             </div>
         </div>
     </section>

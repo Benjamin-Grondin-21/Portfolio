@@ -1,13 +1,12 @@
-[README.md](https://github.com/user-attachments/files/24989547/README.md)
 # Portfolio - GRONDIN Benjamin
 
-Portfolio professionnel de Benjamin GRONDIN, étudiant en BUT Réseaux & Télécommunications (2ème année) à l'IUT de La Réunion, titulaire d'un BTS SIO SISR.
+Portfolio professionnel de Benjamin GRONDIN, étudiant en BUT Réseaux & Télécommunications (3ème année) à l'IUT de La Réunion, titulaire d'un BTS SIO SISR.
 
 Actuellement en alternance chez **Orange Réunion Mayotte** en tant qu'exploitant réseaux mobile.
 
 ## 🌐 Voir le portfolio en ligne
 
-👉 **[https://votre-username.github.io/portfolio/](https://votre-username.github.io/portfolio/)**
+👉 **[https://benjamin-grondin-21.github.io/Portfolio/](https://benjamin-grondin-21.github.io/Portfolio/)**
 
 ## 📁 Structure du repository
 
@@ -39,7 +38,7 @@ Système de surveillance avec Grafana, Prometheus et Discord pour le monitoring 
 ### 3. Portfolio Web
 Site portfolio moderne avec design brutalist-minimal et animations fluides.
 - **Technologies** : HTML, CSS, JavaScript
-- **[Voir le site](https://votre-username.github.io/portfolio/)**
+- **[Voir le site](https://benjamin-grondin-21.github.io/Portfolio/)**
 
 ### 4. Analyse de logs
 Monitoring avancé avec PromQL et Loki pour l'analyse de performances système.
@@ -61,11 +60,11 @@ Exploitation et maintenance des réseaux mobiles 4G/5G.
 
 - **Email** : benjamin.grondin@exemple.fr
 - **LinkedIn** : [linkedin.com/in/votre-profil](https://linkedin.com/in/votre-profil)
-- **GitHub** : [github.com/votre-username](https://github.com/votre-username)
+- **GitHub** : [github.com/Benjamin-Grondin-21](https://github.com/Benjamin-Grondin-21)
 
 ## 🎓 Formation
 
-- **BUT Réseaux & Télécommunications** (2ème année) - IUT de La Réunion
+- **BUT Réseaux & Télécommunications** (3ème année) - IUT de La Réunion
 - **BTS SIO option SISR** - Solutions d'Infrastructure, Systèmes et Réseaux
 
 ## 💼 Alternance

@@ -342,6 +342,7 @@
         .project-card:nth-child(4) { animation-delay: 0.4s; }
         .project-card:nth-child(5) { animation-delay: 0.5s; }
         .project-card:nth-child(6) { animation-delay: 0.6s; }
+        .project-card:nth-child(7) { animation-delay: 0.7s; }
 
         .project-card:hover {
             transform: translateY(-10px) rotateX(5deg);
@@ -889,6 +890,36 @@
             </div>
 
             <div class="project-card">
+                <span class="project-category">Infrastructure • DNS</span>
+                <h3 class="project-title">Configuration DNS Primaire/Secondaire</h3>
+                <p class="project-desc">Mise en place d'une architecture DNS haute disponibilité avec BIND9. Configuration de zones directe et inverse, transfert de zone automatique entre serveur primaire et secondaire. Intégration d'un serveur web Apache avec résolution de noms de domaine.</p>
+                <div class="project-links">
+                    <a href="documents/GRONDIN-Benjamin-TP1-R303.pdf" target="_blank" class="project-link primary">Voir le rapport PDF</a>
+                </div>
+                <div class="project-tags">
+                    <span class="tag">BIND9</span>
+                    <span class="tag">DNS</span>
+                    <span class="tag">Apache</span>
+                    <span class="tag">Linux</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <span class="project-category">Sécurité • Load Balancing</span>
+                <h3 class="project-title">HAProxy - Équilibrage de charge sécurisé</h3>
+                <p class="project-desc">Infrastructure haute disponibilité avec HAProxy pour la répartition de charge entre deux serveurs Apache. Configuration HTTPS/TLS avec certificats auto-signés, redirection automatique HTTP vers HTTPS, persistance de session via cookies et monitoring en temps réel. Tests de basculement et analyse du handshake TLS avec Wireshark.</p>
+                <div class="project-links">
+                    <a href="documents/R4-Cyber-11_-Sécurisation-de-services-réseaux-Haproxy-GRONDIN-Benjamin-BUT-2-TP1-2025.pdf" target="_blank" class="project-link primary">Voir le rapport PDF</a>
+                </div>
+                <div class="project-tags">
+                    <span class="tag">HAProxy</span>
+                    <span class="tag">HTTPS/TLS</span>
+                    <span class="tag">Apache</span>
+                    <span class="tag">Load Balancing</span>
+                </div>
+            </div>
+
+            <div class="project-card">
                 <span class="project-category">Data Analysis • Monitoring</span>
                 <h3 class="project-title">Analyse de logs</h3>
                 <p class="project-desc">Système d'analyse avancée avec PromQL pour le monitoring CPU/mémoire et intégration Loki pour l'analyse de logs. Création de requêtes complexes et de dashboards pour le suivi en temps réel des performances système.</p>
@@ -942,6 +973,10 @@
                 <div class="skill-level">Grafana • Prometheus • Loki • PromQL • PostgreSQL • MySQL</div>
             </div>
             <div class="skill-item">
+                <div class="skill-name">Services Web & Load Balancing</div>
+                <div class="skill-level">BIND9 • Apache2 • HAProxy • Configuration zones DNS • Transfert de zone • Résolution nslookup • Équilibrage de charge • HTTPS/TLS</div>
+            </div>
+            <div class="skill-item">
                 <div class="skill-name">Virtualisation & Outils</div>
                 <div class="skill-level">VirtualBox • Packet Tracer • Windows Server • Active Directory</div>
             </div>
@@ -966,7 +1001,7 @@
                 Étudiant BUT Réseaux & Télécommunications (3ème année)<br>
                 <strong>IUT de La Réunion</strong> • Titulaire BTS SIO SISR<br>
                 Passionné par le développement et les protocoles réseaux<br><br>
-                <a href="/cdn-cgi/l/email-protection#5e3c3b30343f33373070392c31303a37301e3b263b332e323b70382c"><span class="__cf_email__" data-cfemail="96f4f3f8fcf7fbfff8b8f1e4f9f8f2fff8d6f3eef3fbe6faf3b8f0e4">[email&#160;protected]</span></a><br>
+                <a href="mailto:votre-email@example.com">contact@benjamin-grondin.fr</a><br>
                 <a href="https://github.com/Benjamin-Grondin-21" target="_blank">GitHub</a> • 
                 <a href="https://linkedin.com/in/votre-profil" target="_blank">LinkedIn</a>
             </p>
@@ -977,7 +1012,7 @@
         <p>&copy; 2026 GRONDIN Benjamin - Tous droits réservés</p>
     </footer>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script>
         // Navigation scroll effect
         const nav = document.querySelector('nav');
         window.addEventListener('scroll', () => {
@@ -1020,3 +1055,11 @@
         // Parallax effect on scroll (only in header section)
         window.addEventListener('scroll', () => {
             const scrolled = window.pageYOffset;
+            const header = document.querySelector('header');
+            if (header && scrolled < window.innerHeight) {
+                header.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
+    </script>
+</body>
+</html>

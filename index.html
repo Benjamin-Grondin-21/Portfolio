@@ -289,6 +289,14 @@
             transform: translateY(-3px);
         }
 
+        .hero-buttons {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            opacity: 0;
+            animation: fadeInUp 1s ease 0.9s forwards;
+        }
+
         .cta-button {
             padding: 1.5rem 3rem;
             background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
@@ -299,8 +307,6 @@
             border: 3px solid var(--accent);
             transition: all 0.3s ease;
             display: inline-block;
-            opacity: 0;
-            animation: fadeInUp 1s ease 0.9s forwards;
             position: relative;
             overflow: hidden;
         }
@@ -327,6 +333,11 @@
             color: var(--secondary);
             transform: translate(-5px, -5px);
             box-shadow: 5px 5px 20px rgba(0, 217, 255, 0.4);
+        }
+
+        .cta-button.secondary {
+            background: var(--primary);
+            border-color: var(--primary);
         }
 
         /* Sections */
@@ -701,6 +712,15 @@
                 font-size: 0.75rem;
             }
 
+            .hero-buttons {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .cta-button {
+                text-align: center;
+            }
+
             .project-links {
                 flex-direction: column;
             }
@@ -822,7 +842,10 @@
             <div class="hero-tag">4G/5G</div>
         </div>
 
-        <a href="#projets" class="cta-button" data-translate="hero_cta">DÉCOUVRIR MES PROJETS</a>
+        <div class="hero-buttons">
+            <a href="#projets" class="cta-button" data-translate="hero_cta">DÉCOUVRIR MES PROJETS</a>
+            <a href="documents/CV-GRONDIN-Benjamin.pdf" target="_blank" class="cta-button secondary" data-translate="hero_cv">TÉLÉCHARGER MON CV</a>
+        </div>
         <div class="scroll-indicator"></div>
     </header>
 
@@ -1036,6 +1059,7 @@
                 hero_stat1_label: "Projets", hero_stat2_label: "Formation", hero_stat3_label: "Motivation",
                 hero_tag1: "Développement Web", hero_tag2: "Protocoles Réseaux", hero_tag3: "Monitoring",
                 hero_cta: "DÉCOUVRIR MES PROJETS",
+                hero_cv: "TÉLÉCHARGER MON CV",
                 about_title: "À PROPOS",
                 about_card1_title: "Mon Parcours",
                 about_card1_p1: "Après l'obtention de mon <strong>BTS SIO option SISR</strong> (Solutions d'Infrastructure, Systèmes et Réseaux), j'ai intégré le <strong>BUT Réseaux & Télécommunications en 2ème année</strong> à l'IUT de La Réunion. Actuellement en <strong>3ème année</strong>, cette formation me permet d'approfondir mes compétences techniques en réseaux et télécommunications.",
@@ -1096,6 +1120,7 @@
                 hero_stat1_label: "Projects", hero_stat2_label: "Education", hero_stat3_label: "Motivation",
                 hero_tag1: "Web Development", hero_tag2: "Network Protocols", hero_tag3: "Monitoring",
                 hero_cta: "DISCOVER MY PROJECTS",
+                hero_cv: "DOWNLOAD MY RESUME",
                 about_title: "ABOUT",
                 about_card1_title: "My Background",
                 about_card1_p1: "After obtaining my <strong>BTS SIO SISR</strong> (Infrastructure, Systems, and Networks Solutions), I joined the <strong>Networks & Telecommunications BUT program in 2nd year</strong> at IUT de La Réunion. Currently in <strong>3rd year</strong>, this program allows me to deepen my technical skills in networks and telecommunications.",

@@ -823,7 +823,6 @@
         </div>
 
         <a href="#projets" class="cta-button" data-translate="hero_cta">DÉCOUVRIR MES PROJETS</a>
-        <a href="documents/CV-GRONDIN-Benjamin.pdf" target="_blank" class="cta-button" data-translate="hero_cv" style="background: var(--primary); border-color: var(--primary); margin-left: 1rem;">TÉLÉCHARGER MON CV</a>
         <div class="scroll-indicator"></div>
     </header>
 
@@ -1014,7 +1013,7 @@
                 <span data-translate="contact_student">Étudiant BUT Réseaux & Télécommunications (3ème année)</span><br>
                 <strong>IUT de La Réunion</strong> • <span data-translate="contact_diploma">Titulaire BTS SIO SISR</span><br>
                 <span data-translate="contact_passion">Passionné par le développement et les protocoles réseaux</span><br><br>
-                <a href="/cdn-cgi/l/email-protection#e087928f8e84898ece82858e8a818d898ed0d9a0878d81898cce838f8d"><span class="__cf_email__" data-cfemail="4d2a3f2223292423632f2823272c2024237d740d2a202c2421632e2220">[email&#160;protected]</span></a><br>
+                <a href="mailto:grondin.benjamin09@gmail.com">grondin.benjamin09@gmail.com</a><br>
                 <a href="https://github.com/Benjamin-Grondin-21" target="_blank">GitHub</a> • 
                 <a href="https://www.linkedin.com/in/benjamin-grondin2103/" target="_blank">LinkedIn</a>
             </p>
@@ -1024,7 +1023,7 @@
     <footer>
         <p>&copy; 2026 GRONDIN Benjamin - <span data-translate="footer_rights">Tous droits réservés</span></p>
     </footer>
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script>
         // =====================
         // TRADUCTIONS FR / EN
         // =====================
@@ -1037,7 +1036,6 @@
                 hero_stat1_label: "Projets", hero_stat2_label: "Formation", hero_stat3_label: "Motivation",
                 hero_tag1: "Développement Web", hero_tag2: "Protocoles Réseaux", hero_tag3: "Monitoring",
                 hero_cta: "DÉCOUVRIR MES PROJETS",
-                hero_cv: "TÉLÉCHARGER MON CV",
                 about_title: "À PROPOS",
                 about_card1_title: "Mon Parcours",
                 about_card1_p1: "Après l'obtention de mon <strong>BTS SIO option SISR</strong> (Solutions d'Infrastructure, Systèmes et Réseaux), j'ai intégré le <strong>BUT Réseaux & Télécommunications en 2ème année</strong> à l'IUT de La Réunion. Actuellement en <strong>3ème année</strong>, cette formation me permet d'approfondir mes compétences techniques en réseaux et télécommunications.",
@@ -1098,7 +1096,6 @@
                 hero_stat1_label: "Projects", hero_stat2_label: "Education", hero_stat3_label: "Motivation",
                 hero_tag1: "Web Development", hero_tag2: "Network Protocols", hero_tag3: "Monitoring",
                 hero_cta: "DISCOVER MY PROJECTS",
-                hero_cv: "DOWNLOAD MY RESUME",
                 about_title: "ABOUT",
                 about_card1_title: "My Background",
                 about_card1_p1: "After obtaining my <strong>BTS SIO SISR</strong> (Infrastructure, Systems, and Networks Solutions), I joined the <strong>Networks & Telecommunications BUT program in 2nd year</strong> at IUT de La Réunion. Currently in <strong>3rd year</strong>, this program allows me to deepen my technical skills in networks and telecommunications.",
@@ -1225,4 +1222,12 @@
 
         // Parallax effect on scroll
         window.addEventListener('scroll', () => {
-            const scrolled = window.pag
+            const scrolled = window.pageYOffset;
+            const header = document.querySelector('header');
+            if (header && scrolled < window.innerHeight) {
+                header.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
+    </script>
+</body>
+</html>

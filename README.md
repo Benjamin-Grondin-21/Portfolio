@@ -2,7 +2,7 @@
 
 Portfolio professionnel de Benjamin GRONDIN, diplômé du BUT Réseaux & Télécommunications à l'IUT de La Réunion, titulaire d'un BTS SIO SISR.
 
-Actuellement en alternance chez **Orange Réunion Mayotte** en tant qu'exploitant réseaux mobile.
+Ancien alternant chez **Orange Réunion Mayotte** en tant qu'exploitant réseaux mobile.
 
 ## 🌐 Voir le portfolio en ligne
 
@@ -61,9 +61,9 @@ Diagnostic et correction de problèmes de connectivité sur deux environnements 
 - **BUT Réseaux & Télécommunications** (diplômé) - IUT de La Réunion
 - **BTS SIO option SISR** - Solutions d'Infrastructure, Systèmes et Réseaux
 
-## 💼 Alternance
+## 💼 Expérience professionnelle
 
-**Orange Réunion Mayotte** - Exploitation Réseaux Mobile
+**Orange Réunion Mayotte** - Alternance Exploitation Réseaux Mobile (contrat terminé)
 - Supervision des infrastructures télécoms
 - Maintenance des réseaux 4G/5G
 - Résolution d'incidents

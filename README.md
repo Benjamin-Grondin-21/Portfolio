@@ -1,6 +1,6 @@
 # Portfolio - GRONDIN Benjamin
 
-Portfolio professionnel de Benjamin GRONDIN, étudiant en BUT Réseaux & Télécommunications (3ème année) à l'IUT de La Réunion, titulaire d'un BTS SIO SISR.
+Portfolio professionnel de Benjamin GRONDIN, diplômé du BUT Réseaux & Télécommunications à l'IUT de La Réunion, titulaire d'un BTS SIO SISR.
 
 Actuellement en alternance chez **Orange Réunion Mayotte** en tant qu'exploitant réseaux mobile.
 
@@ -35,17 +35,12 @@ Système de surveillance avec Grafana, Prometheus et Discord pour le monitoring 
 - **Technologies** : Grafana, Prometheus, PostgreSQL, Discord
 - **[Voir le rapport](documents/rapports/monitoring-conteneurs.pdf)**
 
-### 3. Portfolio Web
-Site portfolio moderne avec design brutalist-minimal et animations fluides.
-- **Technologies** : HTML, CSS, JavaScript
-- **[Voir le site](https://benjamin-grondin-21.github.io/Portfolio/)**
-
-### 4. Analyse de logs
+### 3. Analyse de logs
 Monitoring avancé avec PromQL et Loki pour l'analyse de performances système.
 - **Technologies** : PromQL, Loki, Monitoring
 - **[Voir le rapport](documents/rapports/analyse-logs.pdf)**
 
-### 5. Alternance - Orange Réunion Mayotte
+### 4. Alternance - Orange Réunion Mayotte
 Exploitation et maintenance des réseaux mobiles 4G/5G.
 - **[Rapport d'alternance](documents/alternance/rapport-alternance-orange.pdf)**
 
@@ -64,7 +59,7 @@ Exploitation et maintenance des réseaux mobiles 4G/5G.
 
 ## 🎓 Formation
 
-- **BUT Réseaux & Télécommunications** (3ème année) - IUT de La Réunion
+- **BUT Réseaux & Télécommunications** (diplômé) - IUT de La Réunion
 - **BTS SIO option SISR** - Solutions d'Infrastructure, Systèmes et Réseaux
 
 ## 💼 Alternance

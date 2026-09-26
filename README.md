@@ -52,7 +52,6 @@ Diagnostic et correction de problèmes de connectivité sur deux environnements 
 
 ## 📞 Contact
 
-- **Email** : benjamin.grondin@exemple.fr
 - **LinkedIn** : [https://www.linkedin.com/in/benjamin-grondin2103/](https://www.linkedin.com/in/benjamin-grondin2103/)
 - **GitHub** : [github.com/Benjamin-Grondin-21](https://github.com/Benjamin-Grondin-21)
 

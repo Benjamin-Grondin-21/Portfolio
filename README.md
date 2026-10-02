@@ -7,3 +7,4 @@ Technicien réseau · routage, switching, supervision.
 - `pkt/` : labs Packet Tracer
 
 Pour ajouter un compte rendu : déposer le PDF dans `cr/` et ajouter une ligne dans le tableau `const CR = [...]` de `index.html`.
+https://benjamin-grondin-21.github.io/Portfolio/
